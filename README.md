@@ -1,0 +1,18 @@
+<p align="center">
+  <span style="font-size:72px; font-weight:bold;">y💗mt</span>
+</p>
+
+<p align="center">
+  <strong>You're My Types</strong><br/>
+  A collection of reusable utility types for TypeScript.
+</p>
+
+# yamt
+
+A small collection of reusable and composable utility types for [TypeScript](https://github.com/microsoft/typescript/).
+It provides practical helpers for transforming complex types and improving type safety in everyday TypeScript development.
+
+## Available Utility Types
+
+- [`DeepPartial`](./src/deep-partial.d.ts) - Makes all properties of a type optional, recursively.
+- [`DeepRequired`](./src/deep-required.d.ts) - Makes all properties of a type required, recursively.

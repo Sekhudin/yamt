@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "node20",
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "verbatimModuleSyntax": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": true,
+    "skipLibCheck": false,
+    "include": [
+      "src"
+    ]
+  }
+}

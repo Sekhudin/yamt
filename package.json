@@ -1,0 +1,30 @@
+{
+  "name": "yamt",
+  "version": "0.0.1",
+  "description": "A collection of powerful TypeScript utility types.",
+  "homepage": "https://github.com/sekhudin/yamt#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekhudin/yamt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sekhudin/yamt/issues"
+  },
+  "author": {
+    "name": "Sekhudin",
+    "email": "sekhudinuap@gmail.com"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "types",
+    "utility",
+    "util",
+    "utilities"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
