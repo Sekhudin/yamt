@@ -12,5 +12,14 @@ It provides practical helpers for transforming complex types and improving type 
 
 ## Available Utility Types
 
-- [`DeepPartial`](./src/deep-partial.d.ts) - Makes all properties of a type optional, recursively.
-- [`DeepRequired`](./src/deep-required.d.ts) - Makes all properties of a type required, recursively.
+### Any
+
+- [`AnyFn`](./src/any/any-fn.d.ts) - Function type accepting any arguments and returning any value.
+- [`Any`](./src/any/any.d.ts) - Simple alias for the `any` type.
+- [`Builtin`](./src/any/builtin.d.ts) - Union of built-in JavaScript types used as base cases in deep utilities.
+- [`Key`](./src/any/key.d.ts) - Valid object property keys (`string`, `number`, or `symbol`).
+- [`Primitive`](./src/any/primitive.d.ts) - All JavaScript primitive value types.
+
+### Object
+
+- [`Record`](./src/object/record.ts) - Creates an object type with writable or readonly properties.

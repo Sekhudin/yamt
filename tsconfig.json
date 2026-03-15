@@ -2,9 +2,8 @@
   "compilerOptions": {
     "module": "node20",
     "target": "esnext",
-    "lib": [
-      "esnext"
-    ],
+    "moduleResolution": "bundler",
+    "lib": ["esnext"],
     "strict": true,
     "exactOptionalPropertyTypes": true,
     "noUncheckedIndexedAccess": true,
@@ -13,8 +12,7 @@
     "declarationMap": true,
     "noEmit": true,
     "skipLibCheck": false,
-    "include": [
-      "src"
-    ]
+    "baseUrl": ".",
+    "include": ["src"]
   }
 }

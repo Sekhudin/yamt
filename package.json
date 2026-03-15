@@ -1,6 +1,7 @@
 {
   "name": "yamt",
   "version": "0.0.1",
+  "type": "module",
   "description": "A collection of powerful TypeScript utility types.",
   "homepage": "https://github.com/sekhudin/yamt#readme",
   "license": "ISC",
@@ -23,8 +24,33 @@
     "util",
     "utilities"
   ],
-  "scripts": {},
+  "types": "./src/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts"
+    },
+    "./object": {
+      "types": "./src/object/index.d.ts"
+    }
+  },
+  "scripts": {
+    "check": "biome check",
+    "check:unsafe": "biome check --write --unsafe .",
+    "test": "npx tsd "
+  },
   "devDependencies": {
+    "@biomejs/biome": "2.4.6",
+    "tsd": "^0.33.0",
     "typescript": "^5.9.3"
+  },
+  "tsd": {
+    "directory": "./test",
+    "compilerOptions": {
+      "noUnusedLocals": false
+    }
   }
 }
