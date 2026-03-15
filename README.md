@@ -22,4 +22,5 @@ It provides practical helpers for transforming complex types and improving type 
 
 ### Object
 
-- [`Record`](./src/object/record.ts) - Creates an object type with writable or readonly properties.
+- [`Exact`](./src/object/exact.d.ts) - Object matching a reference shape exactly.
+- [`Record`](./src/object/record.ts) - Object with writable or readonly properties.

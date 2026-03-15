@@ -31,7 +31,10 @@
   ],
   "exports": {
     ".": {
-      "types": "./src/index.ts"
+      "types": "./src/index.d.ts"
+    },
+    "./any": {
+      "types": "./src/any/index.d.ts"
     },
     "./object": {
       "types": "./src/object/index.d.ts"
